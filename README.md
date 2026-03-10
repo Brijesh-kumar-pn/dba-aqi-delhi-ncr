@@ -13,7 +13,7 @@ This project analyzes daily AQI levels across five CPCB monitoring stations in D
 - **Source:** Central Pollution Control Board (CPCB)
 - **Study Period:** 2018–2023
 - **Total Observations:** 10,924
-- **Target Variable:** Daily Maximum Air Quality Index (Daily_MAX_AQI)
+- **Target Variable:** Daily Maximum Air Quality Index (Daily_MEDIAN_AQI)
 
 The dataset contains daily AQI observations from five monitoring stations in Delhi–NCR:
 
