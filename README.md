@@ -34,3 +34,21 @@ This project analyzes daily AQI levels across five CPCB monitoring stations in D
 ## Author
 Brijesh Kumar  
 Doctorate in Business Administration (ML & AI)
+
+## Project Visualizations
+
+### Seasonal AQI Trends
+
+![Seasonal Trends](figures/figure_4_seasonal_trends.png)
+
+### Feature Importance (Random Forest)
+
+![Feature Importance](figures/figure_6_feature_importance.png)
+
+### Scenario Analysis
+
+![Scenario](figures/figure_7_scenario_analysis.png)
+
+### SHAP Explainability
+
+![SHAP](figures/figure_8_shap_summary.png)
