@@ -1,7 +1,7 @@
 # Analysis and Prediction of Air Quality in Delhi–NCR (2018–2023)
 
 ## Project Overview
-This project analyzes daily AQI levels across five CPCB monitoring stations in Delhi–NCR from 2018 to 2023. The study applies statistical testing and machine learning methods to:
+This project analyzes daily air pollution dynamics across five Central Pollution Control Board (CPCB) monitoring stations in Delhi–NCR between 2018 and 2023. The study integrates statistical analysis and machine learning methods to understand temporal patterns and develop predictive models for air quality.
 
 - Examine seasonal variation
 - Evaluate spatial heterogeneity
@@ -14,6 +14,7 @@ This project analyzes daily AQI levels across five CPCB monitoring stations in D
 - **Study Period:** 2018–2023
 - **Total Observations:** 10,924
 - **Target Variable:** Daily Maximum Air Quality Index (Daily_MEDIAN_AQI)
+- The modeling objective was to predict the **daily median AQI across monitoring stations**, which provides a robust representation of overall air quality conditions while reducing the influence of extreme outlier readings.
 
 The dataset contains daily AQI observations from five monitoring stations in Delhi–NCR:
 
@@ -61,8 +62,7 @@ The analytical framework combines statistical inference with machine learning te
 | Random Forest (Without Weather) | 58.85 |
 | SARIMA | 121.24 |
 
-The Random Forest model incorporating meteorological variables achieved the best predictive performance.
-
+The Random Forest model incorporating meteorological variables achieved the best predictive performance, indicating that weather conditions significantly contribute to AQI variability in Delhi–NCR.
 ---
 
 ## Repository Structure
@@ -92,7 +92,8 @@ dba-aqi-delhi-ncr
 
 ## Author
 Brijesh Kumar  
-Doctorate in Business Administration (ML & AI)
+Doctorate in Business Administration (Machine Learning & AI)  
+Walsh College
 
 ## Project Visualizations
 
